@@ -5,7 +5,7 @@ import React, { useState } from 'react'
 function HooksObj() {
     const [name, setName] = useState({firstName:"",lastName:""})
 
-    console.log(name)
+    // console.log(name)
 
   return (
     <div>
@@ -15,7 +15,7 @@ function HooksObj() {
             <h2> firstname : {name.firstName}</h2>
             <h2> lasttname : {name.lastName}</h2>
             <h2>{JSON.stringify(name)}</h2>
-            </form>r
+            </form>
       
     </div>
   )
