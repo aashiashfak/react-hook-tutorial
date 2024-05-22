@@ -2,7 +2,9 @@
 // import HooksObj from "./Components/HooksObj";
 // import ParentComponent from "./Components/parentComponent";
 
-import Context from "./Components/Context";
+// import Context from "./Components/Context";
+// import UseCallbackParent from "./Components/UseCallbackParent";
+import UsereduceCounter from "./Components/UsereduceCounter";
 
 
 function App() {
@@ -10,7 +12,9 @@ function App() {
     <div className="App">
       {/* <ParentComponent/>
       <HooksObj/> */}
-      <Context/>
+      {/* <Context/> */}
+      {/* <UseCallbackParent/> */}
+      <UsereduceCounter/>
     </div>
   );
 }
